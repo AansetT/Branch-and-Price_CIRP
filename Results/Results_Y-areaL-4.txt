@@ -1,0 +1,41 @@
+Instances:
+nvehicles = 5
+set_number = 5 
+txt_file = "Y-areaS-4"
+
+Tunning:
+
+
+Initialization: MIPgap=0.4 TimeLimit=15s
+Execution: TimeLimit=30s
+Strategy: Multitours
+Final Execution Time = 
+Notes:
+
+
+###################################################################################
+Initialization: MIPgap=0.4 TimeLimit=15s
+Execution: TimeLimit=30s (check the MIPgap)
+Strategy: Trips
+Final Execution Time = 21.5 mins 
+Notes: Did not finish
+
+
+###################################################################################
+Initialization: Heuristic
+Execution: TimeLimit=30s (check the MIPgap)
+Strategy: Multitours
+Final Execution Time = 
+Notes:
+
+
+
+###################################################################################
+Initialization: Heuristic
+Execution: TimeLimit=30s (check the MIPgap)
+Strategy: Trips
+Final Execution Time = 
+Notes: time limit
+
+
+

@@ -1,0 +1,69 @@
+# Code to add feasible solution
+mult0 = [0,1,7,0,2,0,3,0,10,0]
+mult1 = [0,11,0,14,13,12,0,4,9,8,15,6,5,0]
+T0 = 0.7660258784452166
+T1 = 0.497919664806155
+# T = MT.get_cycle_time(Time, Customers, [mult0], [MT.identify_tours(mult0)], 1, parameters['vehicleCapacity'], parameters['delta'], parameters['phi'], parameters['h'], parameters['d'])
+
+MultiTours,Cost,T,X = MT.Add_MultiTours_Manually(parameters, MultiTours,Cost,T,X, mult0, T0)
+MultiTours,Cost,T,X = MT.Add_MultiTours_Manually(parameters, MultiTours,Cost,T,X, mult1, T1)
+
+# mult0= [0,22,14,0,3,4,17,0]						
+# mult1 = [0,26,15,25,0,8,19,0,5,0]				
+# mult2 = [0,10,11,9,12,18,0,2,13,24,30,0,29,0]
+# mult3 = [0,21,20,7,6,28,23,0,16,1,0,27,0]	
+
+# T0 = MT.get_cycle_time(Time, Customers, [mult2], [MT.identify_tours(mult2)], 1, parameters['vehicleCapacity'], parameters['delta'], parameters['phi'], parameters['h'], parameters['d'])[3][0]
+# T1 = MT.get_cycle_time(Time, Customers, [mult2], [MT.identify_tours(mult2)], 1, parameters['vehicleCapacity'], parameters['delta'], parameters['phi'], parameters['h'], parameters['d'])[3][0]
+# T2 = MT.get_cycle_time(Time, Customers, [mult2], [MT.identify_tours(mult2)], 1, parameters['vehicleCapacity'], parameters['delta'], parameters['phi'], parameters['h'], parameters['d'])[3][0]
+# T3 = MT.get_cycle_time(Time, Customers, [mult2], [MT.identify_tours(mult2)], 1, parameters['vehicleCapacity'], parameters['delta'], parameters['phi'], parameters['h'], parameters['d'])[3][0]
+
+# MultiTours,Cost,T,X = MT.Add_MultiTours_Manually(parameters, MultiTours,Cost,T,X, mult0, T0)
+# MultiTours,Cost,T,X = MT.Add_MultiTours_Manually(parameters, MultiTours,Cost,T,X, mult1, T1)
+# MultiTours,Cost,T,X = MT.Add_MultiTours_Manually(parameters, MultiTours,Cost,T,X, mult2, T2)
+# MultiTours,Cost,T,X = MT.Add_MultiTours_Manually(parameters, MultiTours,Cost,T,X, mult3, T3)
+
+
+lista = [(0, 2), (0, 4), (0, 15), (0, 17), (0, 19), (0, 23), (0, 24), (1, 4), (1, 23), (1, 25), (2, 11), (2, 13), (3, 5), (3, 25), (4, 1), (4, 22), (4, 23), (4, 24), (5, 3), (5, 25), (6, 7), (6, 8), (7, 6), (7, 8), (7, 9), (7, 10), (7, 14), (7, 15), (8, 6), (8, 7), (9, 7), (9, 10), (10, 7), (10, 9), (11, 12), (11, 14), (12, 11), (12, 14), (13, 2), (13, 21), (14, 7), (14, 11), (14, 12), (15, 7), (15, 24), (16, 17), (16, 18), (17, 0), (17, 16), (17, 19), (17, 20), (17, 24), (18, 16), (18, 20), (19, 17), (19, 20), (20, 17), (20, 18), (20, 19), (21, 13), (21, 22), (22, 4), (22, 21), (23, 1), (23, 4), (24, 0), (24, 15), (25, 1), (25, 3), (25, 5)]
+values = [0.08483574868351756, 0.16585399144279203, 0.1658539923612155, 0.16585399237279805, 0.08589425556398511, 0.16585399078108487, 0.16585399597294234, 0.333840038421536, 0.53096182425115, 0.13519812752487415, 0.12891078603559905, 0.8710891980202073, 0.5672318581962261, 0.4327681326384775, 0.280272072608936, 0.1289107873418954, 0.3031841733112578, 0.28763295616741147, 0.5679662603127891, 0.4320337283275751, 0.05242861372159139, 0.9475713801469131, 0.052466488938625176, 0.05242860174934989, 0.04661774357766532, 0.04662234498829272, 0.09394575656929516, 0.7079190589493116, 0.94753350461054, 0.05246647775598047, 0.04662234348287748, 0.9533776497596946, 0.04661774586353985, 0.9533822493082571, 0.5738860717711081, 0.426113915908313, 0.5200596724361204, 0.47994031394651315, 0.9151642347169714, 0.08483575416813405, 0.22285654426740553, 0.3510295303684502, 0.42611391386610054, 0.5790082678436168, 0.42099172310123306, 0.05256947286323679, 0.9474305214980439, 0.12622695602601794, 0.05232563049698122, 0.346477976961715, 0.34944813218238263, 0.12552129304768525, 0.947674361368739, 0.05232562596597565, 0.401773755817459, 0.5982262367686235, 0.37980276775383004, 0.05256946569359383, 0.5676277617103911, 0.12891078673940962, 0.8710891944382616, 0.08483575725331544, 0.9151642259244782, 0.5845297869121869, 0.41547020013632174, 0.8737730429911702, 0.12622693972472693, 0.13519812921998678, 0.4320337301398265, 0.43276812999407177]
+
+
+nodos = []
+for i in range(len(lista)):
+    nodos.append(lista[i][0])
+    nodos.append(lista[i][1])
+
+nodos = list(set(nodos))
+print(nodos)
+tuples = []
+for nodo in nodos:
+    # find the tuple that contains the node
+    index_i = [i for i, x in enumerate(lista) if nodo == x[0]]
+    index_j = [i for i, x in enumerate(lista) if nodo == x[1]]
+    
+    # find the values of the tuples
+    values_i = [values[i] for i in index_i]
+    values_j = [values[i] for i in index_j]
+
+    # find the maximum value
+    max_value_i = max(values_i)
+    max_value_j = max(values_j)
+
+    # find the index of the maximum value
+    index_max_value_i = values_i.index(max_value_i)
+    index_max_value_j = values_j.index(max_value_j)
+
+    # find the tuple with the maximum value
+    tuple_max_value_i = lista[index_i[index_max_value_i]]
+    tuple_max_value_j = lista[index_j[index_max_value_j]]
+
+    tuples.append((tuple_max_value_i, tuple_max_value_j))
+
+print(tuples)
+
+tuples2 = []
+for i in range(len(tuples)):
+    if tuples[i][0] != (tuples[i][1][1], tuples[i][1][0]):
+        tuples2.append((tuples[i][0], tuples[i][1]))
+
+print(tuples2)

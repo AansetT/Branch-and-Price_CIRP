@@ -1,0 +1,8 @@
+# Ignore all Excel files
+*.xlsx
+
+# Ignore Visual Studio Code configuration directory
+.vscode/
+
+# Ignore Python bytecode cache directories
+__pycache__/

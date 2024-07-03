@@ -1,0 +1,222 @@
+Instance:
+nvehicles = 5
+set_number = 1 
+txt_file = "Y15-1A9"
+
+Optimal: 1048.35956
+Execution Time = 
+
+
+Initialization: Original BnP
+Execution: optimality Subproblem
+Strategy: Multitours
+Final Execution Time = 42 mins 14 sec
+Notes: Optimal
+
+Relaxed Master Problem:
+Solution of the Relaxed Master Problem [(26, 0.2), (28, 0.8), (29, 0.4), (31, 0.4), (33, 0.2), (36, 0.2)]
+Min total cost RMP 1036.63103767307
+
+Integer Master Problem:
+Solution of the Master Problem [(3, 1.0), (28, 1.0), (31, 1.0)]
+Min total cost MP 1102.3966078200156
+[0, 2, 0] 1.3297272085970093 155.81117622497334
+[0, 8, 1, 3, 0] 0.8309999999999989 429.87136158122723
+[0, 4, 7, 9, 5, 6, 0] 0.9410000000000003 516.7140700138151
+
+Branch and Price Results
+node Depth TC           Leaf  UB           LB           Gap       
+0    0     1036.631     False 1102.397     1036.631     6.344     
+1    1     1044.85      False 1102.397     1044.85      5.508     
+2    2     1057.063     True  1057.063     1044.85      1.169     
+3    2     1044.973     False 1057.063     1044.973     1.157     
+4    3     Infeasible   True  1057.063     1044.973     1.157     
+5    3     1046.781     False 1057.063     1046.781     0.982     
+6    4     Infeasible   True  1057.063     1046.781     0.982     
+7    4     1048.36      True  1048.36      1046.781     0.151     
+8    1     1051.214     True  1048.36      1046.781     0.151     
+
+Optimal solution found
+Min total cost: 1048.3595572522283
+Solution: [(36, 1.0), (49, 1.0)]
+[0, 7, 9, 5, 6, 2, 0] 0.9339999999999924 536.8715224453947
+[0, 4, 8, 1, 3, 0] 0.9119999999991268 511.4880348068336
+
+###################################################################################
+Initialization: Original BnP
+Execution: optimality Subproblem
+Strategy: Trips
+Final Execution Time = 38 min 42 sec
+Notes: Optimal
+
+Relaxed Master Problem:
+Solution of the Relaxed Master Problem [(26, 0.2), (28, 0.8), (29, 0.4), (31, 0.4), (33, 0.2), (36, 0.2)]
+Min total cost RMP 1036.63103767307
+
+Integer Master Problem:
+Solution of the Master Problem [(3, 1.0), (28, 1.0), (31, 1.0)]
+Min total cost MP 1102.3966078200156
+[0, 2, 0] 1.3297272085970093 155.81117622497334
+[0, 8, 1, 3, 0] 0.8309999999999989 429.87136158122723
+[0, 4, 7, 9, 5, 6, 0] 0.9410000000000003 516.7140700138151
+
+Branch and Price Results
+node Depth TC           Leaf  UB           LB           Gap       
+0    0     1036.631     False 1102.397     1036.631     6.344     
+1    1     1044.85      False 1102.397     1044.85      5.508     
+2    2     1054.362     False 1102.397     1054.362     4.556     
+3    3     1057.9       True  1057.9       1054.362     0.336     
+4    3     1075.976     True  1057.9       1054.362     0.336     
+5    2     1057.063     True  1057.063     1054.362     0.256     
+6    1     1048.36      True  1048.36      1054.362     -0.299    
+
+Optimal solution found
+Min total cost: 1048.3595572522283
+Solution: [(36, 1.0), (49, 1.0)]
+[0, 7, 9, 5, 6, 2, 0] 0.9339999999999924 536.8715224453947
+[0, 4, 8, 1, 3, 0] 0.9119999999991268 511.4880348068336
+
+
+###################################################################################
+Initialization: Heuristic
+Execution: Optimality
+Strategy: Multitours
+Final Execution Time = 30.9 mins
+Notes: 
+
+Relaxed Master Problem:
+Solution of the Relaxed Master Problem [(31, 0.2), (34, 0.7999999999999999), (37, 0.4), (38, 0.20000000000000007), (39, 0.39999999999999997), (40, 0.20000000000000004)]
+Min total cost RMP 1036.6310375289474
+
+Integer Master Problem:
+Solution of the Master Problem [(22, 1.0), (34, 1.0), (37, 1.0)]
+Min total cost MP 1097.3709070246864
+[0, 6, 0] 0.252 204.56945120634919
+[0, 8, 1, 3, 0] 0.8309999999993694 429.8713615811141
+[0, 4, 7, 9, 5, 2, 0] 0.9439999999993751 462.93009423722316
+
+Branch and Price Results
+node Depth TC           Leaf  UB           LB           Gap       
+0    0     1036.631     False 1097.371     1036.631     5.859     
+1    1     1044.85      False 1097.371     1044.85      5.027     
+2    2     Infeasible   True  1097.371     1044.85      5.027     
+3    2     1044.973     False 1097.371     1044.973     5.014     
+4    3     Infeasible   True  1097.371     1044.973     5.014     
+5    3     1046.781     False 1097.371     1046.781     4.833     
+6    4     Infeasible   True  1097.371     1046.781     4.833     
+7    4     1048.36      True  1048.36      1046.781     0.151     
+8    1     1051.214     True  1048.36      1046.781     0.151     
+
+Optimal solution found
+Min total cost: 1048.3595565323794
+Solution: [(31, 1.0), (48, 1.0)]
+[0, 7, 9, 5, 6, 2, 0] 0.9339999960254596 536.8715217253593
+[0, 4, 8, 1, 3, 0] 0.912000000000013 511.4880348070202
+
+
+
+###################################################################################
+Initialization: Heuristic
+Execution: Optimality
+Strategy: Trips
+Final Execution Time = 27 mins 45 sec
+Notes: 
+
+Relaxed Master Problem:
+Solution of the Relaxed Master Problem [(31, 0.2), (34, 0.7999999999999999), (37, 0.4), (38, 0.20000000000000007), (39, 0.39999999999999997), (40, 0.20000000000000004)]
+Min total cost RMP 1036.6310375289474
+
+Integer Master Problem:
+Solution of the Master Problem [(22, 1.0), (34, 1.0), (37, 1.0)]
+Min total cost MP 1097.3709070246864
+[0, 6, 0] 0.252 204.56945120634919
+[0, 8, 1, 3, 0] 0.8309999999993694 429.8713615811141
+[0, 4, 7, 9, 5, 2, 0] 0.9439999999993751 462.93009423722316
+
+Branch and Price Results
+node Depth TC           Leaf  UB           LB           Gap       
+0    0     1036.631     False 1097.371     1036.631     5.859     
+1    1     1044.85      False 1097.371     1044.85      5.027     
+2    2     1054.362     False 1097.371     1054.362     4.079     
+3    3     1057.9       True  1057.9       1054.362     0.336     
+4    3     1075.976     True  1057.9       1054.362     0.336     
+5    2     1057.063     True  1057.063     1054.362     0.256     
+6    1     1048.36      True  1048.36      1054.362     -0.299    
+
+Optimal solution found
+Min total cost: 1048.3595572522283
+Solution: [(36, 1.0), (49, 1.0)]
+[0, 7, 9, 5, 6, 2, 0] 0.9339999999999924 536.8715224453947
+[0, 4, 8, 1, 3, 0] 0.9119999999991268 511.4880348068336
+
+###################################################################################
+Initialization: gap=0.5 subproblem
+Execution: Optimality
+Strategy: Multitours
+Final Execution Time = 43 mins 50 sec
+Notes: 
+
+Relaxed Master Problem:
+Solution of the Relaxed Master Problem [(28, 0.8), (29, 0.4), (31, 0.4), (33, 0.2), (36, 0.2), (40, 0.19999999999999996)]
+Min total cost RMP 1036.6310354129032
+
+Integer Master Problem:
+Solution of the Master Problem [(3, 1.0), (28, 1.0), (31, 1.0)]
+Min total cost MP 1102.3966078200017
+[0, 2, 0] 1.3297272085970093 155.81117622497334
+[0, 8, 1, 3, 0] 0.8310000000000008 429.8713615812276
+[0, 4, 7, 9, 5, 6, 0] 0.9409999999999114 516.7140700138008
+
+Branch and Price Results
+node Depth TC           Leaf  UB           LB           Gap       
+0    0     1036.631     False 1102.397     1036.631     6.344     
+1    1     1044.85      False 1102.397     1044.85      5.508     
+2    2     1057.063     True  1057.063     1044.85      1.169     
+3    2     1044.973     False 1057.063     1044.973     1.157     
+4    3     Infeasible   True  1057.063     1044.973     1.157     
+5    3     1046.781     False 1057.063     1046.781     0.982     
+6    4     Infeasible   True  1057.063     1046.781     0.982     
+7    4     1048.36      True  1048.36      1046.781     0.151     
+8    1     1051.214     True  1048.36      1046.781     0.151     
+
+Optimal solution found
+Min total cost: 1048.3595572522888
+Solution: [(36, 1.0), (49, 1.0)]
+[0, 7, 9, 5, 6, 2, 0] 0.9339999999993622 536.8715224452806
+[0, 4, 8, 1, 3, 0] 0.9119999999999564 511.4880348070083
+
+###################################################################################
+Initialization: gap=0.5 subproblem
+Execution: Optimality
+Strategy: Trips
+Final Execution Time = 40 min 42 sec
+Notes: 
+
+Relaxed Master Problem:
+Solution of the Relaxed Master Problem [(28, 0.8), (29, 0.4), (31, 0.4), (33, 0.2), (36, 0.2), (40, 0.19999999999999996)]
+Min total cost RMP 1036.6310354129032
+
+Integer Master Problem:
+Solution of the Master Problem [(3, 1.0), (28, 1.0), (31, 1.0)]
+Min total cost MP 1102.3966078200017
+[0, 2, 0] 1.3297272085970093 155.81117622497334
+[0, 8, 1, 3, 0] 0.8310000000000008 429.8713615812276
+[0, 4, 7, 9, 5, 6, 0] 0.9409999999999114 516.7140700138008
+
+Branch and Price Results
+node Depth TC           Leaf  UB           LB           Gap       
+0    0     1036.631     False 1102.397     1036.631     6.344     
+1    1     1044.85      False 1102.397     1044.85      5.508     
+2    2     1054.362     False 1102.397     1054.362     4.556     
+3    3     1107.934     True  1102.397     1054.362     4.556     
+4    3     1067.209     False 1102.397     1067.209     3.297     
+5    4     1075.976     True  1075.976     1067.209     0.821     
+6    4     1072.532     True  1072.532     1067.209     0.499     
+7    2     1057.063     True  1057.063     1067.209     -0.951    
+8    1     1048.36      True  1048.36     1067.209     -1.499    
+
+Optimal solution found
+Min total cost: 1048.3595572522888
+Solution: [(36, 1.0), (49, 1.0)]
+[0, 7, 9, 5, 6, 2, 0] 0.9339999999993622 536.8715224452806
+[0, 4, 8, 1, 3, 0] 0.9119999999999564 511.4880348070083

@@ -1,0 +1,3 @@
+{
+    "python.defaultInterpreterPath": "D:/AnacondaDiego/envs/new/python.exe"
+}

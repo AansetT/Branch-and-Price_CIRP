@@ -1,0 +1,172 @@
+Instance:
+nvehicles = 5
+set_number = 1 
+txt_file = "Y15-2A8"
+
+Optimal: 864.02656
+Execution Time = More than 1 hour
+
+
+Initialization: Original BnP
+Execution: optimality Subproblem
+Strategy: Multitours
+Final Execution Time = 5 min 7 sec
+Notes: 
+
+Relaxed Master Problem:
+Solution of the Relaxed Master Problem [(22, 1.0), (23, 0.33333333333333337), (24, 0.33333333333333337), (28, 0.33333333333333337), (29, 0.3333333333333333)]
+Min total cost RMP 869.857014197932
+
+Integer Master Problem:
+Solution of the Master Problem [(18, 1.0), (28, 1.0)]
+Min total cost MP 883.3055887238231
+[0, 5, 4, 7, 2, 1, 0] 0.8749999999994746 612.6370178570065
+[0, 6, 3, 8, 0] 0.8859999999996104 270.66857086681654
+
+Branch and Price Results
+node Depth TC           Leaf  UB           LB           Gap       
+0    0     869.857      False 883.306      869.857      1.546     
+1    1     864.027      True  864.027      869.857      -0.67     
+2    1     895.141      True  864.027      869.857      -0.67     
+
+Optimal solution found
+Min total cost: 864.0265562525321
+Solution: [(22, 1.0), (31, 1.0)]
+[0, 7, 2, 1, 0] 0.6529999999999934 441.5350836110249
+[0, 6, 3, 8, 4, 5, 0] 1.324999999999978 422.4914726415072
+
+
+###################################################################################
+Initialization: Original BnP
+Execution: optimality Subproblem
+Strategy: Trips
+Final Execution Time = 5 min 13 sec
+Notes:
+
+Relaxed Master Problem:
+Solution of the Relaxed Master Problem [(22, 1.0), (23, 0.33333333333333337), (24, 0.33333333333333337), (28, 0.33333333333333337), (29, 0.3333333333333333)]
+Min total cost RMP 869.857014197932
+
+Integer Master Problem:
+Solution of the Master Problem [(18, 1.0), (28, 1.0)]
+Min total cost MP 883.3055887238231
+[0, 5, 4, 7, 2, 1, 0] 0.8749999999994746 612.6370178570065
+[0, 6, 3, 8, 0] 0.8859999999996104 270.66857086681654
+
+Branch and Price Results
+node Depth TC           Leaf  UB           LB           Gap       
+0    0     869.857      False 883.306      869.857      1.546     
+1    1     864.027      True  864.027      869.857      -0.67     
+2    1     895.141      True  864.027      869.857      -0.67     
+
+Optimal solution found
+Min total cost: 864.0265562525321
+Solution: [(22, 1.0), (31, 1.0)]
+[0, 7, 2, 1, 0] 0.6529999999999934 441.5350836110249
+[0, 6, 3, 8, 4, 5, 0] 1.324999999999978 422.4914726415072
+
+
+###################################################################################
+Initialization: Heuristic
+Execution: Optimality
+Strategy: Multitours
+Final Execution Time = 3.5 minutes
+Notes: No BnP. Optimal
+
+Relaxed Master Problem:
+Solution of the Relaxed Master Problem [(37, 1.0), (40, 1.0)]
+Min total cost RMP 864.0265562524777
+
+Integer Master Problem:
+Solution of the Master Problem [(37, 1.0), (40, 1.0)]
+Min total cost MP 864.0265562524777
+[0, 6, 3, 8, 4, 5, 0] 1.3249999999994366 422.49147264145256
+[0, 1, 2, 7, 0] 0.6529999999999949 441.53508361102513
+
+Integer Master Problem:
+Solution of the Master Problem [(37, 1.0), (40, 1.0)]
+Min total cost MP 864.0265562524777
+[0, 6, 3, 8, 4, 5, 0] 1.3249999999994366 422.49147264145256
+[0, 1, 2, 7, 0] 0.6529999999999949 441.53508361102513
+
+
+###################################################################################
+Initialization: Heuristic
+Execution: Optimality
+Strategy: Trips
+Final Execution Time = 3.5 minutes
+Notes: No BnP. Optimal
+
+Relaxed Master Problem:
+Solution of the Relaxed Master Problem [(37, 1.0), (40, 1.0)]
+Min total cost RMP 864.0265562524777
+
+Integer Master Problem:
+Solution of the Master Problem [(37, 1.0), (40, 1.0)]
+Min total cost MP 864.0265562524777
+[0, 6, 3, 8, 4, 5, 0] 1.3249999999994366 422.49147264145256
+[0, 1, 2, 7, 0] 0.6529999999999949 441.53508361102513
+
+Integer Master Problem:
+Solution of the Master Problem [(37, 1.0), (40, 1.0)]
+Min total cost MP 864.0265562524777
+[0, 6, 3, 8, 4, 5, 0] 1.3249999999994366 422.49147264145256
+[0, 1, 2, 7, 0] 0.6529999999999949 441.53508361102513
+
+
+###################################################################################
+Initialization: gap=0.5 subproblem
+Execution: Optimality
+Strategy: Multitours
+Final Execution Time = 3.5 mins
+Notes: No BnP. Optimals: 
+
+Relaxed Master Problem:
+Solution of the Relaxed Master Problem [(22, 1.0), (32, 1.0)]
+Min total cost RMP 864.0265562524808
+Branch and Price Solution:
+
+Relaxed Master Problem:
+Solution of the Relaxed Master Problem [(22, 1.0), (32, 1.0)]
+Min total cost RMP 864.0265562524808
+
+Integer Master Problem:
+Solution of the Master Problem [(22, 1.0), (32, 1.0)]
+Min total cost MP 864.0265562524808
+[0, 1, 2, 7, 0] 0.6529999999999959 441.5350836110253
+[0, 6, 3, 8, 4, 5, 0] 1.3249999999994646 422.4914726414554
+
+Integer Master Problem:
+Solution of the Master Problem [(22, 1.0), (32, 1.0)]
+Min total cost MP 864.0265562524808
+[0, 1, 2, 7, 0] 0.6529999999999959 441.5350836110253
+[0, 6, 3, 8, 4, 5, 0] 1.3249999999994646 422.4914726414554
+
+
+###################################################################################
+Initialization: gap=0.5 subproblem
+Execution: Optimality
+Strategy: Trips
+Final Execution Time = 3.5 mins
+Notes: No BnP. Optimal
+
+Relaxed Master Problem:
+Solution of the Relaxed Master Problem [(22, 1.0), (32, 1.0)]
+Min total cost RMP 864.0265562524808
+Branch and Price Solution:
+
+Relaxed Master Problem:
+Solution of the Relaxed Master Problem [(22, 1.0), (32, 1.0)]
+Min total cost RMP 864.0265562524808
+
+Integer Master Problem:
+Solution of the Master Problem [(22, 1.0), (32, 1.0)]
+Min total cost MP 864.0265562524808
+[0, 1, 2, 7, 0] 0.6529999999999959 441.5350836110253
+[0, 6, 3, 8, 4, 5, 0] 1.3249999999994646 422.4914726414554
+
+Integer Master Problem:
+Solution of the Master Problem [(22, 1.0), (32, 1.0)]
+Min total cost MP 864.0265562524808
+[0, 1, 2, 7, 0] 0.6529999999999959 441.5350836110253
+[0, 6, 3, 8, 4, 5, 0] 1.3249999999994646 422.4914726414554

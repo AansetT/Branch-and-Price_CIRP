@@ -1,0 +1,389 @@
+Heuristic Solution:
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-11-29
+Iteration 0 :
+Min reduced cost [-203.65399814643186, -468.54546976744183]
+MIPgap 1
+Generated MultiTour [[0, 15, 12, 0, 11, 0, 8, 4, 0], [0, 6, 2, 0, 9, 3, 5, 14, 0, 7, 10, 1, 13, 0]]
+Min total cost RMP 210.72578752688486
+Iteration 1 :
+Min reduced cost [-74.96189864803704]
+MIPgap 1
+Generated MultiTour [[0, 11, 12, 0, 4, 0, 7, 6, 2, 1, 0]]
+Min total cost RMP 190.26623208612625
+Iteration 2 :
+Min reduced cost [-66.94843950039875]
+MIPgap 1
+Generated MultiTour [[0, 8, 4, 0, 1, 14, 3, 5, 2, 0, 7, 9, 6, 0, 10, 11, 0]]
+Min total cost RMP 190.26623208612625
+Iteration 3 :
+Min reduced cost [-55.45765008835082]
+MIPgap 1
+Generated MultiTour [[0, 11, 0, 4, 2, 0, 6, 5, 3, 0, 7, 8, 0, 10, 1, 15, 9, 0]]
+Min total cost RMP 190.26623208612625
+Iteration 4 :
+Min reduced cost [-63.68054750423369]
+MIPgap 1
+Generated MultiTour [[0, 7, 0, 8, 4, 0, 6, 2, 5, 3, 0, 10, 1, 13, 12, 0]]
+Min total cost RMP 190.26623208612625
+Iteration 5 :
+Min reduced cost [-68.61520351469773]
+MIPgap 1
+Generated MultiTour [[0, 13, 12, 1, 0, 15, 4, 0, 9, 3, 5, 2, 0, 7, 6, 0]]
+Min total cost RMP 190.26623208612625
+Iteration 6 :
+Min reduced cost [-73.83111654827766]
+MIPgap 1
+Generated MultiTour [[0, 15, 12, 0, 10, 1, 14, 3, 9, 2, 0, 7, 4, 0]]
+Min total cost RMP 190.26623208612625
+Iteration 7 :
+Min reduced cost [-67.38141735025971]
+MIPgap 1
+Generated MultiTour [[0, 15, 12, 0, 8, 2, 0, 7, 4, 0, 10, 1, 14, 3, 5, 9, 0]]
+Min total cost RMP 190.26623208612625
+Iteration 8 :
+Min reduced cost [-63.537226010093576]
+MIPgap 1
+Generated MultiTour [[0, 11, 0, 9, 8, 4, 0, 13, 12, 1, 0, 7, 2, 5, 3, 0]]
+Min total cost RMP 190.26623208612625
+Iteration 9 :
+Min reduced cost [-114.8304029995929]
+MIPgap 1
+Generated MultiTour [[0, 4, 0, 11, 0, 13, 15, 1, 0, 12, 0, 9, 14, 8, 0, 6, 2, 0]]
+Min total cost RMP 190.26623208612625
+Iteration 10 :
+Min reduced cost [-103.2376347516603]
+MIPgap 1
+Generated MultiTour [[0, 11, 0, 9, 6, 8, 0, 1, 15, 12, 0, 10, 14, 3, 5, 0]]
+Min total cost RMP 190.26623208612625
+Iteration 11 :
+Min reduced cost [-65.74937601234555]
+MIPgap 1
+Generated MultiTour [[0, 11, 0, 10, 1, 15, 13, 0, 14, 3, 5, 2, 0, 9, 6, 4, 0]]
+Min total cost RMP 190.26623208612625
+Iteration 12 :
+Min reduced cost [-72.23129662222719]
+MIPgap 1
+Generated MultiTour [[0, 11, 0, 8, 4, 0, 7, 10, 0, 15, 0, 13, 1, 14, 9, 2, 0]]
+Min total cost RMP 190.26623208612625
+Iteration 13 :
+Min reduced cost [-1.7634041709002304, -1.6086918063426197]
+MIPgap 1
+Generated MultiTour [[0, 11, 12, 0], [0, 8, 0, 13, 9, 6, 0, 7, 10, 1, 0, 4, 2, 0, 14, 3, 5, 0]]
+Min total cost RMP 190.26623208612625
+Iteration 14 :
+Min reduced cost [-56.17972784102051]
+MIPgap 1
+Generated MultiTour [[0, 11, 0, 12, 0, 7, 10, 0, 13, 1, 9, 6, 0, 4, 2, 5, 0]]
+Min total cost RMP 190.26623208612625
+Iteration 15 :
+Min reduced cost [-88.82005362848022]
+MIPgap 1
+Generated MultiTour [[0, 8, 2, 6, 0, 12, 0, 7, 10, 0, 13, 15, 1, 9, 0]]
+Min total cost RMP 190.26623208612625
+Iteration 16 :
+Min reduced cost [-61.32389751354732]
+MIPgap 1
+Generated MultiTour [[0, 11, 0, 8, 4, 0, 9, 6, 3, 14, 0, 12, 0, 7, 10, 1, 13, 0]]
+Min total cost RMP 190.26623208612625
+Iteration 17 :
+Min reduced cost [-61.01437189449905, -38.41006602551195]
+MIPgap 1
+Generated MultiTour [[0, 12, 0, 15, 0, 8, 0, 9, 6, 0, 7, 13, 0], [0, 4, 0, 11, 0, 10, 14, 3, 5, 2, 0]]
+Min total cost RMP 190.26623208612625
+Iteration 18 :
+Min reduced cost [-56.22916350383305]
+MIPgap 1
+Generated MultiTour [[0, 11, 0, 9, 3, 5, 2, 0, 12, 0, 7, 10, 1, 13, 0, 8, 4, 0]]
+Min total cost RMP 179.33738919748862
+Iteration 19 :
+Min reduced cost [-85.58640914142174]
+MIPgap 1
+Generated MultiTour [[0, 12, 0, 11, 0, 10, 14, 6, 2, 0, 7, 15, 0, 9, 3, 0]]
+Min total cost RMP 176.9945073848289
+
+Relaxed Master Problem:
+Solution of the Relaxed Master Problem [(1, 0.3376623376623376), (17, 0.012987012987012991), (20, 0.2857142857142857), (21, 0.07792207792207792), (22, 0.20779220779220778), (25, 0.15584415584415587), (26, 0.012987012987013033), (28, 0.012987012987012995), (29, 0.19480519480519481), (33, 0.012987012987013017), (36, 0.1948051948051948), (37, 0.0389610389610389), (38, 0.012987012987012998)]
+Min total cost RMP 176.04101616385117
+Branch and Price Solution:
+Iteration 0 :
+Min reduced cost -67.48117572137878
+MIPgap 1.0979393364035406
+Generated MultiTour [0, 4, 12, 0, 7, 8, 0, 11, 0, 14, 5, 6, 2, 0, 15, 13, 0]
+Min total cost RMP 176.04101616385117
+Iteration 1 :
+Min reduced cost -106.56077604491512
+MIPgap 0.44611413908844877
+Generated MultiTour [0, 8, 7, 0, 11, 0, 14, 3, 2, 0, 15, 13, 0]
+Min total cost RMP 167.12807378161742
+Iteration 2 :
+Min reduced cost -90.75500570628378
+MIPgap 0.6156983086492814
+Generated MultiTour [0, 7, 5, 3, 10, 0, 11, 0, 12, 0, 13, 15, 1, 0]
+Min total cost RMP 165.05163280594132
+Iteration 3 :
+Min reduced cost -23.7164372853247
+MIPgap 3.6660273914920687
+Generated MultiTour [0, 6, 5, 3, 9, 0, 10, 2, 8, 0, 12, 7, 0, 13, 15, 0]
+Min total cost RMP 162.49515383897023
+Iteration 4 :
+Min reduced cost -17.22008897828698
+MIPgap 5.361276172393139
+Generated MultiTour [0, 7, 2, 6, 0, 8, 13, 0, 10, 14, 3, 0, 12, 15, 1, 0]
+Min total cost RMP 161.8836244948546
+Iteration 5 :
+Min reduced cost -22.34680421759755
+MIPgap 3.8692228069204235
+Generated MultiTour [0, 1, 14, 3, 9, 0, 5, 6, 2, 0, 7, 0, 11, 0, 12, 0, 13, 15, 0]
+Min total cost RMP 161.58987809831484
+Iteration 6 :
+Min reduced cost -19.7049406168683
+MIPgap 4.513868741392754
+Generated MultiTour [0, 1, 12, 13, 0, 3, 5, 6, 0, 4, 8, 0, 9, 10, 7, 0, 15, 0]
+Min total cost RMP 160.45073046811055
+Iteration 7 :
+Min reduced cost -19.515236117882523
+MIPgap 4.481373782914529
+Generated MultiTour [0, 6, 2, 9, 0, 7, 8, 0, 10, 5, 3, 14, 0, 11, 0, 12, 0, 13, 15, 1, 0]
+Min total cost RMP 160.41879897974107
+Iteration 8 :
+Min reduced cost -19.44758560342376
+MIPgap 4.536206089525431
+Generated MultiTour [0, 2, 3, 9, 0, 4, 6, 0, 11, 0, 12, 1, 10, 0]
+Min total cost RMP 156.9286035734802
+Iteration 9 :
+Min reduced cost -33.594221449492125
+MIPgap 2.4144481892962513
+Generated MultiTour [0, 3, 14, 10, 0, 4, 0, 6, 2, 0, 8, 0, 12, 0, 13, 15, 0]
+Min total cost RMP 156.79212594548088
+Iteration 10 :
+Min reduced cost -18.24944215044023
+MIPgap 4.537912050437707
+Generated MultiTour [0, 1, 15, 0, 6, 5, 3, 0, 7, 4, 0, 10, 13, 12, 0, 11, 0]
+Min total cost RMP 156.40450031337136
+Iteration 11 :
+Min reduced cost -21.898579390995025
+MIPgap 3.84365454849962
+Generated MultiTour [0, 4, 15, 0, 6, 2, 10, 0, 9, 3, 7, 0, 11, 0, 13, 12, 0]
+Min total cost RMP 156.28189494330277
+Iteration 12 :
+Min reduced cost -19.508807760100808
+MIPgap 4.3060353933793865
+Generated MultiTour [0, 8, 15, 1, 0, 9, 6, 5, 3, 0, 11, 0, 12, 4, 0]
+Min total cost RMP 155.7841999571438
+Iteration 13 :
+Min reduced cost -4.042419230918561
+MIPgap 24.704910274145437
+Generated MultiTour [0, 4, 8, 0, 6, 9, 5, 14, 10, 0, 12, 15, 1, 0]
+Min total cost RMP 155.76939569930286
+Iteration 14 :
+Min reduced cost -8.907665966158838
+MIPgap 10.612817151717753
+Generated MultiTour [0, 4, 0, 6, 9, 2, 0, 7, 8, 0, 11, 0, 12, 13, 0, 15, 1, 14, 10, 0]
+Min total cost RMP 155.75732877622545
+Iteration 15 :
+Min reduced cost -8.848442759851416
+MIPgap 10.744871782559532
+Generated MultiTour [0, 4, 0, 6, 5, 0, 7, 2, 0, 8, 0, 9, 3, 14, 0, 12, 0, 15, 13, 0]
+Min total cost RMP 155.40892920072204
+Iteration 16 :
+Min reduced cost -22.449822401616046
+MIPgap 3.5812426877270376
+Generated MultiTour [0, 4, 8, 0, 9, 5, 3, 14, 10, 0, 11, 0, 12, 0, 15, 13, 0]
+Min total cost RMP 155.03101760017057
+Iteration 17 :
+Min reduced cost -22.361563557217977
+MIPgap 3.6809000786573174
+Generated MultiTour [0, 4, 0, 5, 3, 14, 0, 6, 2, 0, 8, 7, 0, 11, 0, 13, 1, 15, 0]
+Min total cost RMP 154.86117109506344
+Iteration 18 :
+Min reduced cost -11.649411463456289
+MIPgap 7.761529366431519
+Generated MultiTour [0, 1, 15, 12, 0, 4, 8, 0, 13, 11, 0, 14, 3, 5, 6, 10, 0]
+Min total cost RMP 154.46271249584342
+Iteration 19 :
+Min reduced cost -6.518954732064316
+MIPgap 14.527767708477013
+Generated MultiTour [0, 9, 6, 5, 3, 14, 10, 0, 11, 4, 0, 12, 15, 1, 0]
+Min total cost RMP 153.81145370763662
+Iteration 20 :
+Min reduced cost -18.90913733621538
+MIPgap 4.308097252376365
+Generated MultiTour [0, 4, 7, 0, 10, 14, 3, 5, 2, 0, 11, 0, 13, 12, 0]
+Min total cost RMP 153.501027291824
+Iteration 21 :
+Min reduced cost -5.0095799813609005
+MIPgap 19.09494170700314
+Generated MultiTour [0, 5, 6, 9, 0, 7, 2, 0, 10, 12, 0, 13, 4, 0, 14, 3, 0, 15, 1, 0]
+Min total cost RMP 153.36389506435896
+Iteration 22 :
+Min reduced cost -2.2326893054168693
+MIPgap 44.06778046400926
+Generated MultiTour [0, 3, 5, 6, 0, 4, 13, 0, 7, 9, 2, 0, 10, 14, 1, 15, 0, 11, 0]
+Min total cost RMP 152.94643006591224
+Iteration 23 :
+Min reduced cost -5.553512233952844
+MIPgap 17.01018694736807
+Generated MultiTour [0, 2, 6, 0, 7, 4, 0, 8, 0, 10, 12, 0, 14, 3, 5, 9, 0, 15, 1, 0]
+Min total cost RMP 152.91925068722327
+Iteration 24 :
+Min reduced cost -4.334895360600598
+MIPgap 21.924223803252012
+Generated MultiTour [0, 6, 5, 3, 14, 0, 7, 4, 9, 0, 11, 0, 13, 12, 0]
+Min total cost RMP 152.4687390844225
+Iteration 25 :
+Min reduced cost -10.590442868682658
+MIPgap 8.362554311792039
+Generated MultiTour [0, 5, 3, 14, 1, 0, 7, 4, 0, 8, 0, 9, 6, 2, 0, 11, 0, 13, 12, 0]
+Min total cost RMP 152.46873908442254
+Iteration 26 :
+Min reduced cost -11.998285288260234
+MIPgap 7.139906222075424
+Generated MultiTour [0, 7, 4, 0, 9, 5, 3, 2, 0, 10, 1, 15, 13, 0, 11, 0, 12, 0]
+Min total cost RMP 151.67855722682395
+Iteration 27 :
+Min reduced cost -4.588859186017125
+MIPgap 19.90888061500822
+Generated MultiTour [0, 4, 8, 0, 6, 5, 3, 10, 0, 7, 15, 13, 0, 11, 0]
+Min total cost RMP 151.56349236671957
+Iteration 28 :
+Min reduced cost -4.089864338281664
+MIPgap 23.36889162205209
+Generated MultiTour [0, 6, 2, 10, 0, 11, 0, 13, 8, 0, 14, 3, 5, 9, 0, 15, 4, 0]
+Min total cost RMP 151.38699778264197
+Iteration 29 :
+Min reduced cost -12.308504570830841
+MIPgap 6.936121548433435
+Generated MultiTour [0, 1, 15, 13, 0, 3, 14, 10, 0, 7, 0, 8, 4, 0, 9, 6, 2, 0, 11, 0]
+Min total cost RMP 151.1313812614994
+Iteration 30 :
+Min reduced cost -8.730091892447206
+MIPgap 10.175285382854451
+Generated MultiTour [0, 8, 7, 0, 10, 9, 5, 6, 2, 0, 11, 13, 0, 12, 4, 0]
+Min total cost RMP 150.97685184116983
+Iteration 31 :
+Min reduced cost -4.727140746400245
+MIPgap 19.41354563759605
+Generated MultiTour [0, 2, 6, 0, 3, 5, 14, 9, 0, 4, 8, 0, 7, 0, 11, 0, 15, 1, 10, 0]
+Min total cost RMP 150.43122109789513
+Iteration 32 :
+Min reduced cost -6.514184755371389
+MIPgap 13.85562497179337
+Generated MultiTour [0, 2, 4, 0, 9, 6, 5, 14, 0, 11, 0, 12, 13, 0, 15, 10, 7, 0]
+Min total cost RMP 150.42638593600188
+Iteration 33 :
+Min reduced cost -11.525139347308524
+MIPgap 7.493553769690434
+Generated MultiTour [0, 7, 0, 8, 4, 0, 9, 14, 5, 2, 0, 13, 15, 1, 10, 0]
+Min total cost RMP 150.42638593600188
+Iteration 34 :
+Min reduced cost -12.921220081005892
+MIPgap 6.47517133243265
+Generated MultiTour [0, 2, 6, 5, 9, 0, 4, 8, 0, 11, 0, 12, 7, 0, 13, 15, 1, 10, 0]
+Min total cost RMP 150.31812247395553
+Iteration 35 :
+Min reduced cost -12.183740440488876
+MIPgap 6.956642991365111
+Generated MultiTour [0, 2, 5, 3, 14, 0, 8, 4, 0, 9, 10, 1, 15, 0, 11, 0, 13, 12, 0]
+Min total cost RMP 149.65293250224576
+Iteration 36 :
+Min reduced cost -8.806904827547342
+MIPgap 9.909292022881214
+Generated MultiTour [0, 4, 0, 7, 8, 0, 9, 5, 14, 3, 0, 10, 1, 15, 13, 0, 12, 0]
+Min total cost RMP 149.65293250224576
+Iteration 37 :
+Min reduced cost -10.622129568320418
+MIPgap 8.135477273472413
+Generated MultiTour [0, 4, 0, 8, 7, 0, 10, 14, 3, 5, 9, 0, 11, 0, 12, 13, 0, 15, 1, 0]
+Min total cost RMP 149.65293250224576
+Iteration 38 :
+Min reduced cost -3.995061765778111
+MIPgap 23.22793808447328
+Generated MultiTour [0, 4, 7, 0, 10, 6, 2, 0, 11, 0, 12, 0, 14, 3, 9, 0, 15, 13, 0]
+Min total cost RMP 149.59160869098662
+Iteration 39 :
+Min reduced cost -6.217272831669007
+MIPgap 14.598131317139773
+Generated MultiTour [0, 6, 5, 3, 14, 0, 7, 8, 0, 10, 1, 15, 13, 0, 11, 0, 12, 4, 0]
+Min total cost RMP 149.34165653576585
+Iteration 40 :
+Min reduced cost -11.790282841460801
+MIPgap 6.996532550788523
+Generated MultiTour [0, 6, 2, 9, 0, 7, 0, 8, 4, 0, 10, 14, 3, 5, 0, 11, 0, 12, 13, 0]
+Min total cost RMP 148.55151543053776
+Iteration 41 :
+Min reduced cost -6.69809719358296
+MIPgap 13.16988549721235
+Generated MultiTour [0, 1, 15, 13, 0, 4, 7, 0, 6, 2, 0, 10, 14, 3, 5, 0, 11, 0, 12, 0]
+Min total cost RMP 148.19423413231166
+Iteration 42 :
+Min reduced cost -4.470107215497421
+MIPgap 19.95007367968693
+Generated MultiTour [0, 4, 7, 0, 6, 2, 0, 12, 0, 13, 15, 1, 0, 14, 3, 5, 9, 0]
+Min total cost RMP 148.02857394982442
+Iteration 43 :
+Min reduced cost -1.84892402129433
+MIPgap 50.66404325803141
+Generated MultiTour [0, 4, 0, 6, 0, 7, 0, 8, 0, 9, 2, 0, 12, 0, 14, 3, 5, 0, 15, 1, 0]
+Min total cost RMP 147.6847195486323
+
+Relaxed Master Problem:
+Solution of the Relaxed Master Problem [(46, 0.15384615384615385), (62, 0.07692307692307693), (64, 0.07692307692307693), (68, 0.07692307692307693), (70, 0.07692307692307693), (73, 0.15384615384615385), (74, 0.1538461538461538), (77, 0.07692307692307693), (78, 0.15384615384615385), (79, 0.07692307692307693), (81, 0.07692307692307693)]
+Min total cost RMP 147.6847195486323
+
+Integer Master Problem:
+Solution of the Master Problem [(17, 1.0), (18, 1.0)]
+Min total cost MP 190.26623208612625
+[0, 15, 12, 0, 11, 0, 8, 4, 0] [92.67840593141798, 116.27906976744187] 90.61330185356812
+[0, 6, 2, 0, 9, 3, 5, 14, 0, 7, 10, 1, 13, 0] [92.67840593141798, 116.27906976744187] 99.65293023255815
+
+Branch and Price Results
+node Depth TC           Leaf  UB           LB           Gap       
+0    0     147.685      False 190.266      147.685      28.833    
+1    1     Infeasible   True  190.266      147.685      28.833    
+2    1     186.478      False 190.266      186.478      2.032     
+3    2     187.059      True  187.059      186.478      0.312     
+4    2     185.488      False 187.059      186.478      0.312     
+5    3     287.92       True  187.059      186.478      0.312     
+6    3     185.723      False 187.059      186.478      0.312     
+7    4     Infeasible   True  187.059      186.478      0.312     
+8    4     186.037      False 187.059      186.478      0.312     
+9    5     238.22       True  187.059      186.478      0.312     
+10   5     185.66       False 187.059      186.478      0.312     
+11   6     Infeasible   True  187.059      186.478      0.312     
+12   6     185.737      False 187.059      186.478      0.312     
+13   7     234.99       True  187.059      186.478      0.312     
+14   7     185.764      False 187.059      186.478      0.312     
+15   8     232.419      True  187.059      186.478      0.312     
+16   8     185.825      False 187.059      186.478      0.312     
+17   9     190.205      True  187.059      186.478      0.312     
+18   9     186.006      False 187.059      186.478      0.312     
+19   10    288.142      True  187.059      186.478      0.312     
+20   10    185.862      False 187.059      186.478      0.312     
+21   11    204.669      True  187.059      186.478      0.312     
+22   11    186.126      False 187.059      186.478      0.312     
+23   12    238.185      True  187.059      186.478      0.312     
+24   12    186.306      False 187.059      186.478      0.312     
+25   13    284.645      True  187.059      186.478      0.312     
+26   13    186.566      False 187.059      186.566      0.264     
+27   14    239.118      True  187.059      186.566      0.264     
+28   14    186.593      False 187.059      186.593      0.249     
+29   15    Infeasible   True  187.059      186.593      0.249     
+30   15    186.313      False 187.059      186.593      0.249     
+31   16    192.517      True  187.059      186.593      0.249     
+32   16    186.73       False 187.059      186.73       0.176     
+33   17    187.1        True  187.059      186.73       0.176     
+34   17    185.73       False 187.059      186.73       0.176     
+35   18    254.312      True  187.059      186.73       0.176     
+36   18    186.294      False 187.059      186.73       0.176     
+37   19    287.236      True  187.059      186.73       0.176     
+38   19    185.869      True  185.869      186.73       -0.461    
+
+Optimal solution found
+Min total cost: 185.86870843210312
+Solution: [(128, 1.0), (151, 1.0)]
+[0, 4, 8, 0, 10, 14, 3, 5, 9, 0, 11, 0] 101.93679918451318 93.75727380224154
+[0, 2, 6, 0, 7, 0, 12, 0, 13, 15, 1, 0] 125.47051442911427 92.11143462986158
+
+
+100.4 mins
