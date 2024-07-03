@@ -1,0 +1,31 @@
+**************************
+* MV-CIRP test instances *
+**************************
+
+The second line contains the following data: 
+
+	m VC d nu ps
+
+Where
+	m	= number of vehicles
+	VC 	= vehicle capacity (in tons)
+	d	= the travel cost (in euro per km)
+	nu	= vehicle speed (in km/hour) 
+	ps	= fixed vehicle operating cost (in euro/hour)
+
+The remaining lines contain the data about the depot and the customers:
+
+	id x y HC D IC R
+
+Where
+	id	= number of the customer (0 for depot)
+	x	= x coordinate 
+	y	= y coordinate
+	HC 	= handling cost (in euro/delivery)
+	D	= demand rate (in tons/hour)
+	IC	= inventory cost (in euro/ton*hour)
+	R	= reward (in euro/hour).
+
+	
+* REMARKS *
+	- The Euclidian distance is used.
