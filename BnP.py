@@ -19,6 +19,9 @@ class MaxPriorityQueue(queue.PriorityQueue):
 
     def empty(self):
         return super().empty()
+    
+    def qsize(self):
+        return super().qsize()
 
 class Node:
     instance_parameters: dict = None
